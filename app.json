@@ -19,7 +19,7 @@
     "slug": "buzztalk",
     "splash": {
       "image": "./src/assets/images/splash.png",
-      "resizeMode": "contain",
+      "resizeMode": "center",
       "backgroundColor": "#09090b"
     },
     "extra": {

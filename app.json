@@ -1,6 +1,6 @@
 {
   "expo": {
-    "scheme": "acme",
+    "scheme": "buzztalk",
     "userInterfaceStyle": "automatic",
     "orientation": "default",
     "web": {
@@ -16,6 +16,23 @@
       ]
     ],
     "name": "BuzzTalk",
-    "slug": "BuzzTalk"
+    "slug": "buzztalk",
+    "splash": {
+      "image": "./src/assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#09090b"
+    },
+    "extra": {
+      "router": {
+        "origin": "https://n"
+      },
+      "eas": {
+        "projectId": "11225c5a-e5d8-4abe-a8b5-50cfc554134a"
+      }
+    },
+    "owner": "pablohv13",
+    "android": {
+      "package": "com.pablohv13.buzztalk"
+    }
   }
 }

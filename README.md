@@ -64,7 +64,7 @@ Sigue los pasos para instalar BuzzTalk localmente usando **React Native** y **Ex
 
 - **Frontend**: React Native, Expo
 - **Backend**: Node.js, Express
-- **Base de datos**: MongoDB
+- **Base de datos**: Postgres
 - **Autenticación**: JWT (JSON Web Tokens)
 - **Mensajería en tiempo real**: WebSockets
 

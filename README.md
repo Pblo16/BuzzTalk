@@ -29,7 +29,7 @@ Sigue los pasos para instalar BuzzTalk localmente usando **React Native** y **Ex
 1. **Clona el repositorio**:
 
    ```bash
-   git clone https://github.com/tu-usuario/BuzzTalk.git
+   git clone https://github.com/Pblo16/BuzzTalk.git
    ```
 
 2. **Instala las dependencias**:

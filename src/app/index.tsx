@@ -22,7 +22,7 @@ function Content() {
               role="heading"
               className="text-3xl text-center native:text-5xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl dark:text-white"
             >
-              Siente el zumbido de la conversación
+              Siente el zumbido de la conversaciónx
             </Text>
             <Text className="mx-auto max-w-[700px] text-lg text-center text-gray-500 md:text-xl dark:text-gray-400">
               Estamos usando tailwind para estilizar nuestro proyecto

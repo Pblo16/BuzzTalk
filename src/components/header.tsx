@@ -13,12 +13,20 @@ export default function Header() {
                     <Link className="py-2 font-bold flex-1 items-center justify-center dark:text-white text-5xl" href="/">
                         BuzzTalk
                     </Link>
-                    <View className="flex flex-row gap-4 sm:gap-6">
+                    <View className="flex flex-row gap-4 sm:gap-6 mx-3">
                         <Link
                             className="text-md font-medium hover:underline web:underline-offset-4 dark:text-white"
                             href="/about"
                         >
                             About
+                        </Link>
+                    </View>
+                    <View className="flex flex-row gap-4 sm:gap-6">
+                        <Link
+                            className="text-md font-medium hover:underline web:underline-offset-4 dark:text-white"
+                            href="/MessagesPage"
+                        >
+                            Mensages
                         </Link>
                     </View>
                 </View>

@@ -5,7 +5,8 @@ import { useSafeAreaInsets } from "react-native-safe-area-context";
 import Footer from "../components/footer";
 import { io } from "socket.io-client";
 
-export const socket = io("https://buzztalk-backend-3bfp.onrender.com");
+export const socket = io("http://192.168.1.9:3000");
+/* export const socket = io("https://buzztalk-backend-3bfp.onrender.com"); */
 
 socket.on('connect', () => {
   console.log('Successfully connected to the server');
@@ -14,6 +15,8 @@ socket.on('connect', () => {
 socket.on('disconnect', () => {
   console.log('Disconnected from the server');
 });
+
+
 export default function Page() {
   return (
     <View className="flex flex-1">

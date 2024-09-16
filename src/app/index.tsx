@@ -3,6 +3,17 @@ import React from "react";
 import { Text, View } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import Footer from "../components/footer";
+import { io } from "socket.io-client";
+
+export const socket = io("https://buzztalk-backend-3bfp.onrender.com");
+
+socket.on('connect', () => {
+  console.log('Successfully connected to the server');
+});
+
+socket.on('disconnect', () => {
+  console.log('Disconnected from the server');
+});
 export default function Page() {
   return (
     <View className="flex flex-1">
@@ -25,7 +36,7 @@ function Content() {
               Siente el zumbido de la conversación
             </Text>
             <Text className="mx-auto max-w-[700px] text-lg text-center text-gray-500 md:text-xl dark:text-gray-400">
-              Estamos usando tailwind para estilizar nuestro proyecto
+              Ahora utilizamos websockets para comunicar con el servidor
             </Text>
 
             <View className="gap-4">

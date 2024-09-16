@@ -1,7 +1,3 @@
-Gracias por el detalle. Aquí te dejo el README actualizado para incluir **React Native** y **Expo**:
-
----
-
 # BuzzTalk 📬🐝
 
 **BuzzTalk** es una aplicación de mensajería rápida, moderna y segura creada con **React Native** y **Expo**, que te permite conectarte fácilmente con tus contactos en cualquier parte del mundo. ¡Disfruta de una experiencia intuitiva y de muchas funcionalidades para hacer tus conversaciones más dinámicas y entretenidas!
